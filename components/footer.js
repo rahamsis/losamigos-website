@@ -18,7 +18,7 @@ export default () => {
 
       </div>
       <div className="flex justify-center pb-2 text-white">
-        <a href="https://www.facebook.com/profile.php?id=100007722019176" target="_blank" className="md:text-base xxs:text-xs">
+        <a href="https://www.linkedin.com/in/rahamsis-cg/" target="_blank" className="md:text-base xxs:text-xs">
           © {currentYear} - Pagina web re-diseñada por Rahamsis CG
         </a>
 
