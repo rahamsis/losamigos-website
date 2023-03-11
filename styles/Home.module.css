@@ -8,6 +8,7 @@
 }
 
 .description {
+  background-color: coral;
   display: inherit;
   justify-content: inherit;
   align-items: inherit;
@@ -16,6 +17,30 @@
   width: 100%;
   z-index: 2;
   font-family: var(--font-mono);
+  height: 1000px;
+  scroll-margin-top: 200px;
+  
+}
+
+.description2 {
+  position: relative;
+  background-color: hotpink;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  font-size: 0.85rem;
+  max-width: var(--max-width);
+  width: 100%;
+  z-index: 2;
+  font-family: var(--font-mono);
+  height: 1000px;
+  scroll-margin-top: 300px;
+  scroll-behavior: smooth;
+  color: white;
+}
+
+.active {
+  border-bottom: 1px solid #333;
 }
 
 .description a {
