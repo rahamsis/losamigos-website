@@ -8,12 +8,13 @@ export default function format(props) {
             <Head>
                 <meta charset="utf-8" />
                 <title>Los Amigos Club</title>
-                <meta name="description" content="Los meta tags de HTML codifican información para ser interpretada por el navegador y los buscadores. ¿Sabes cuáles son imprescindibles?" />
+                <meta name="description" content="Club de idioma Español e ingles ubicado en Asia Central - Kirguistan" />
                 <meta name="keywords" content="palabra clave 1, palabra clave 2, palabra clave 3" />
-                <meta name="author" content="Nombre del autor" />
+                <meta name="author" content="Rahamsis CG" />
                 <meta name="copyright" content="Propietario del copyright" />
                 <meta name="robots" content="index" />
-                <meta property="og:description" content="Los meta tags de HTML codifican información para ser interpretada por el navegador y los buscadores. ¿Sabes cuáles son imprescindibles?" />
+                <meta property="og:description" content="Club de idioma Español e ingles ubicado en Asia Central - Kirguistan" />
+                <link  rel="icon"   href="faviconLosAmigos.ico" type="image/ico" />
             </Head>
 
             <Header type={props.type}></Header>
